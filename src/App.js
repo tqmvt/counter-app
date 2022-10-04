@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
+import Background from "./img/shop.jpeg";
 
 class App extends Component {
   state = {
@@ -48,6 +49,19 @@ class App extends Component {
   render() {
     return (
       <div className="main__wrap">
+        <img
+          src={Background}
+          alt="background"
+          style={{
+            position: "absolute",
+            top: "0px",
+            left: "0px",
+            zIndex: "-1",
+            width: "100vw",
+            height: "100vh",
+            opacity: "0.2",
+          }}
+        />
         <main className="container">
           <div className="card__box">
             <NavBar

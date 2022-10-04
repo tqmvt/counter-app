@@ -27,6 +27,7 @@ code {
   border: 10px solid #7fd8e6;
   border-radius: 12px;
   background-color: #ddf2f5;
+  opacity: 0.9;
 }
 .row {
   justify-content: center !important;
